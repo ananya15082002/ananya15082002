@@ -1,7 +1,6 @@
 <h1 align="center"> Hi, I'm Ananya Singh! 👋 </h1>
 <p align="center">
 🚀 AI/ML Enthusiast | Data Science | Deep Learning | Generative AI  
-🔍 Passionate about <b>Computer Vision, NLP, and AI-powered Solutions</b>  
 </p>
 
 ---
