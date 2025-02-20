@@ -1,26 +1,31 @@
-name: Update README
+name: Generate Contribution Snake
 
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"  # Runs every day at midnight UTC
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Update Profile
-        run: |
-          echo "Updating Profile README..."
-          echo "Last updated: $(date)" >> README.md
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ananya15082002
+          outputs: snake.svg
 
-      - name: Commit and Push Changes
+      - name: Check if snake.svg was created
+        run: ls -R || echo "File not found"
+
+      - name: Commit and Push the SVG
         run: |
-          git config --global user.name "GitHub Actions Bot"
+          git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Automated README update"
-          git push
+          git add snake.svg || echo "No changes to commit"
+          git commit -m "Updated Contribution Snake" || echo "No new changes"
+          git push || echo "No new changes to push"
