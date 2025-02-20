@@ -55,6 +55,6 @@
 ## 🎮 Fun Section  
 🐍 Watch the GitHub Contribution Snake!  
 
-![snake gif](https://github.com/ananya15082002/ananya15082002/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/ananya15082002/ananya15082002/blob/main/dist/snake.svg)
 
 ---
