@@ -1,0 +1,20 @@
+<svg width="600" height="720" viewBox="0 0 600 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="10%" r="70%">
+      <stop offset="0%" stop-color="#8F5FFF" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#4AC7F5" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#07061A" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1A3A" />
+      <stop offset="60%" stop-color="#1D0B3D" />
+      <stop offset="100%" stop-color="#07061A" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="720" rx="40" fill="url(#overlay)" />
+  <rect width="600" height="720" rx="40" fill="url(#bg)" />
+  <circle cx="300" cy="360" r="210" fill="none" stroke="white" stroke-opacity="0.18" stroke-width="14" />
+  <circle cx="300" cy="360" r="165" fill="none" stroke="white" stroke-opacity="0.12" stroke-width="10" />
+  <circle cx="300" cy="360" r="230" fill="url(#bg)" opacity="0.55" />
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="200" font-weight="600" fill="white">AS</text>
+</svg>

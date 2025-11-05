@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" role="img" aria-labelledby="title desc">
+  <title id="title">AI excellence badge</title>
+  <desc id="desc">Badge artwork with neural network rings and lightning bolt center.</desc>
+  <defs>
+    <radialGradient id="badgeBg" cx="0.5" cy="0.3" r="0.9">
+      <stop offset="0%" stop-color="#22265a" />
+      <stop offset="100%" stop-color="#0b0e28" />
+    </radialGradient>
+    <linearGradient id="badgeRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8f5fff" />
+      <stop offset="100%" stop-color="#4ac7f5" />
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8ffb0" />
+      <stop offset="100%" stop-color="#ffd15c" />
+    </linearGradient>
+  </defs>
+  <circle cx="140" cy="140" r="130" fill="url(#badgeBg)" stroke="rgba(255,255,255,0.12)" stroke-width="4" />
+  <g opacity="0.25" stroke="#4ac7f5" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round">
+    <circle cx="140" cy="140" r="100" />
+    <circle cx="140" cy="140" r="70" />
+  </g>
+  <circle cx="140" cy="140" r="92" fill="none" stroke="url(#badgeRing)" stroke-width="8" />
+  <g opacity="0.5" stroke="#8f5fff" stroke-width="3" stroke-linecap="round">
+    <path d="M60 140 H90" />
+    <path d="M190 140 H220" />
+    <path d="M140 60 V90" />
+    <path d="M140 190 V220" />
+  </g>
+  <g fill="#4ac7f5" opacity="0.6">
+    <circle cx="70" cy="120" r="6" />
+    <circle cx="205" cy="100" r="6" />
+    <circle cx="175" cy="205" r="6" />
+    <circle cx="105" cy="205" r="6" />
+  </g>
+  <circle cx="140" cy="140" r="62" fill="rgba(8,15,45,0.85)" stroke="rgba(255,255,255,0.18)" stroke-width="3" />
+  <path d="M140 90 L110 150 H140 L120 200 L170 130 H140 Z" fill="url(#bolt)" stroke="rgba(255,255,255,0.2)" stroke-width="2" />
+  <path d="M100 150 Q140 120 180 150" fill="none" stroke="rgba(143,95,255,0.35)" stroke-width="6" stroke-linecap="round" />
+  <text x="140" y="248" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="600" font-size="20" fill="#8f9bff">COMMUNITY · IMPACT · AI</text>
+</svg>

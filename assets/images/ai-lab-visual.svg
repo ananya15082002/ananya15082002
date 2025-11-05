@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" role="img" aria-labelledby="title desc">
+  <title id="title">AI engineer lab illustration</title>
+  <desc id="desc">Illustration showing an AI engineer working with dashboards, charts, and neural networks.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1f4f" />
+      <stop offset="100%" stop-color="#11153a" />
+    </linearGradient>
+    <linearGradient id="accentLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8f5fff" />
+      <stop offset="100%" stop-color="#4ac7f5" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.2" r="1">
+      <stop offset="0%" stop-color="rgba(143,95,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(10,14,40,0)" />
+    </radialGradient>
+  </defs>
+  <rect width="420" height="280" rx="28" fill="#090b20" />
+  <rect x="10" y="10" width="400" height="260" rx="24" fill="url(#panel)" stroke="rgba(255,255,255,0.08)" />
+  <ellipse cx="315" cy="80" rx="70" ry="40" fill="rgba(143,95,255,0.12)" />
+  <ellipse cx="110" cy="200" rx="90" ry="36" fill="rgba(74,199,245,0.12)" />
+  <g opacity="0.9">
+    <rect x="70" y="70" width="120" height="70" rx="16" fill="#0c1030" stroke="rgba(255,255,255,0.08)" />
+    <path d="M90 100 Q130 60 170 110" fill="none" stroke="url(#accentLight)" stroke-width="6" stroke-linecap="round" />
+    <circle cx="94" cy="100" r="6" fill="#4ac7f5" />
+    <circle cx="170" cy="110" r="6" fill="#8f5fff" />
+    <path d="M95 122 h70" stroke="#8f5fff" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8" />
+  </g>
+  <g opacity="0.9">
+    <rect x="210" y="60" width="130" height="90" rx="20" fill="#10153a" stroke="rgba(255,255,255,0.06)" />
+    <path d="M232 90 L250 70 L270 110 L292 80 L310 120" fill="none" stroke="#4ac7f5" stroke-width="5" stroke-linecap="round" />
+    <g fill="#8f5fff">
+      <circle cx="232" cy="90" r="6" />
+      <circle cx="250" cy="70" r="6" />
+      <circle cx="270" cy="110" r="6" />
+      <circle cx="292" cy="80" r="6" />
+      <circle cx="310" cy="120" r="6" />
+    </g>
+    <path d="M230 130 h90" stroke="rgba(255,255,255,0.25)" stroke-width="3" stroke-linecap="round" />
+  </g>
+  <g opacity="0.8">
+    <rect x="130" y="160" width="230" height="80" rx="22" fill="#0c1132" stroke="rgba(255,255,255,0.05)" />
+    <path d="M160 185 h120" stroke="#4ac7f5" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 10" />
+    <path d="M160 210 h160" stroke="#8f5fff" stroke-width="4" stroke-linecap="round" />
+    <path d="M160 225 h95" stroke="rgba(255,255,255,0.25)" stroke-width="3" stroke-linecap="round" />
+  </g>
+  <g transform="translate(110 135)">
+    <ellipse cx="35" cy="80" rx="38" ry="14" fill="rgba(0,0,0,0.25)" />
+    <path d="M24 50 C20 30 45 20 60 35 L70 45" fill="#f4d5c3" />
+    <path d="M15 45 C12 20 65 18 78 46 C82 60 78 84 60 90 C42 96 24 80 15 60" fill="#f4d5c3" />
+    <path d="M10 36 C26 6 74 6 88 42 L80 52 C70 34 38 30 22 52 Z" fill="#1b1f45" />
+    <path d="M40 83 C50 86 68 84 76 78 L82 134 H0 L8 78 Z" fill="#141739" />
+    <rect x="14" y="94" width="54" height="12" rx="6" fill="url(#accentLight)" />
+    <circle cx="27" cy="67" r="6" fill="#141739" />
+    <circle cx="61" cy="67" r="6" fill="#141739" />
+    <path d="M32 78 Q44 86 56 78" fill="none" stroke="#c97c8b" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <g transform="translate(20 40)" opacity="0.35">
+    <path d="M40 0 h40" stroke="#4ac7f5" stroke-width="2" stroke-dasharray="6 6" stroke-linecap="round" />
+    <circle cx="90" cy="0" r="4" fill="#8f5fff" />
+    <path d="M0 40 h50" stroke="#8f5fff" stroke-width="2" stroke-dasharray="4 10" stroke-linecap="round" />
+    <circle cx="12" cy="40" r="5" fill="#4ac7f5" />
+  </g>
+  <g opacity="0.4" transform="translate(320 210)">
+    <circle r="30" fill="rgba(143,95,255,0.15)" />
+    <path d="M-15 -10 L-5 0 L-15 10" fill="none" stroke="#4ac7f5" stroke-width="4" stroke-linecap="round" />
+    <path d="M15 -10 L5 0 L15 10" fill="none" stroke="#4ac7f5" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <circle cx="340" cy="58" r="34" fill="url(#glow)" />
+  <path d="M322 46 h36" stroke="#4ac7f5" stroke-width="3" stroke-linecap="round" />
+  <path d="M318 62 h44" stroke="#8f5fff" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 6" />
+</svg>
