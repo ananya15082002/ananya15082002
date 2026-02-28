@@ -1,44 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" width="920" height="580">
   <defs>
-    <linearGradient id="cardGray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#d4d4d4"/>
       <stop offset="100%" style="stop-color:#b8b8b8"/>
     </linearGradient>
-    <linearGradient id="skyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="sb" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#b8d4e8"/>
       <stop offset="100%" style="stop-color:#9ec4de"/>
     </linearGradient>
-    <filter id="cardshadow">
+    <filter id="cs">
       <feDropShadow dx="5" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.7"/>
     </filter>
-    <clipPath id="photoClip">
-      <rect x="0" y="0" width="90" height="82" rx="2"/>
+    <clipPath id="pc">
+      <rect x="0" y="0" width="90" height="82" rx="3"/>
     </clipPath>
   </defs>
 
-  <!-- ═══ CARD FRONT ═══ -->
-  <rect x="16" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.5" filter="url(#cardshadow)"/>
-  <rect x="12" y="12" width="408" height="548" rx="18" fill="url(#cardGray)"/>
+  <!-- FRONT CARD -->
+  <rect x="16" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.4" filter="url(#cs)"/>
+  <rect x="12" y="12" width="408" height="548" rx="18" fill="url(#cg)"/>
   <rect x="12" y="12" width="408" height="548" rx="18" fill="none" stroke="#111" stroke-width="10"/>
-  <rect x="22" y="22" width="388" height="528" rx="12" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <rect x="22" y="22" width="388" height="528" rx="12" fill="none" stroke="#fff" stroke-width="3"/>
   <rect x="26" y="26" width="380" height="520" rx="10" fill="none" stroke="#222" stroke-width="1.5"/>
 
-  <!-- Top black header -->
+  <!-- Header -->
   <rect x="12" y="12" width="408" height="48" rx="18" fill="#111"/>
   <rect x="12" y="40" width="408" height="20" fill="#111"/>
-
-  <!-- HxH logos in header -->
-  <!-- Left logo -->
   <g transform="translate(22,14)">
     <line x1="0" y1="2" x2="24" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
     <line x1="24" y1="2" x2="0" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
     <polygon points="12,7 19,17 12,27 5,17" fill="#AA1111"/>
     <polygon points="12,11 17,17 12,23 7,17" fill="#DD2222"/>
   </g>
-  <!-- Header text -->
-  <text x="216" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff" letter-spacing="3">HUNTER ASSOCIATION</text>
-  <text x="216" y="42" text-anchor="middle" font-family="Courier New, monospace" font-size="7.5" fill="#888" letter-spacing="2">OFFICIAL MEMBERSHIP CARD</text>
-  <!-- Right logo -->
+  <text x="216" y="28" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#fff" letter-spacing="3">HUNTER ASSOCIATION</text>
+  <text x="216" y="42" text-anchor="middle" font-family="Courier New,monospace" font-size="7.5" fill="#888" letter-spacing="2">OFFICIAL MEMBERSHIP CARD</text>
   <g transform="translate(374,14)">
     <line x1="0" y1="2" x2="24" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
     <line x1="24" y1="2" x2="0" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
@@ -46,27 +41,26 @@
     <polygon points="12,11 17,17 12,23 7,17" fill="#DD2222"/>
   </g>
 
-  <!-- Big XX logo box -->
+  <!-- Big XX -->
   <rect x="30" y="60" width="360" height="200" rx="6" fill="#eeeeee" stroke="#111" stroke-width="3"/>
-  <!-- Left big X -->
   <line x1="60" y1="78" x2="175" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
   <line x1="175" y1="78" x2="60" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
   <polygon points="117,102 147,160 117,218 87,160" fill="#AA1111"/>
   <polygon points="117,120 137,160 117,200 97,160" fill="#CC2222"/>
-  <!-- Right big X -->
   <line x1="245" y1="78" x2="360" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
   <line x1="360" y1="78" x2="245" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
   <polygon points="302,102 332,160 302,218 272,160" fill="#AA1111"/>
   <polygon points="302,120 322,160 302,200 282,160" fill="#CC2222"/>
 
-  <!-- Black barcode strip with PHOTO -->
+  <!-- Barcode strip -->
   <rect x="30" y="265" width="360" height="96" rx="4" fill="#111"/>
 
-  <!-- Photo - using raw GitHub image -->
-  <image href="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/Ananayaphoto-new.png"
-    x="38" y="272" width="90" height="82" preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#photoClip)"/>
-  <rect x="38" y="272" width="90" height="82" rx="2" fill="none" stroke="#555" stroke-width="1.5"/>
+  <!-- Photo box - stylized with initials (GitHub blocks external SVG images) -->
+  <rect x="38" y="272" width="90" height="82" rx="3" fill="#2a2a2a" stroke="#555" stroke-width="1.5"/>
+  <rect x="40" y="274" width="86" height="78" rx="2" fill="#1a1a1a"/>
+  <!-- Initials -->
+  <text x="83" y="315" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#888">AS</text>
+  <text x="83" y="330" text-anchor="middle" font-family="Courier New,monospace" font-size="7" fill="#555">ANANYA SINGH</text>
 
   <!-- Barcode lines -->
   <rect x="140" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
@@ -111,82 +105,58 @@
   <rect x="380" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
 
   <!-- Blue info section -->
-  <rect x="30" y="365" width="360" height="185" rx="0" fill="url(#skyBlue)" stroke="#111" stroke-width="2"/>
-
-  <!-- Name box -->
+  <rect x="30" y="365" width="360" height="185" fill="url(#sb)" stroke="#111" stroke-width="2"/>
   <rect x="40" y="374" width="340" height="44" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
-  <text x="210" y="403" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="21" font-weight="900" fill="#111" letter-spacing="1">Ananya Singh</text>
-
-  <!-- Info text -->
-  <text x="44" y="432" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">LICENSE NO.  :  HA-2025-AIML-0815</text>
-  <text x="44" y="450" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">NEN TYPE     :  Enhancement · Conjuration</text>
-  <text x="44" y="468" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">SPECIALITY   :  AI / ML · Computer Vision</text>
-  <text x="44" y="486" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">INSTITUTION  :  UPES — B.Tech CSE (AIML)</text>
-  <text x="44" y="504" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">RANK         :  ★★  DOUBLE-STAR HUNTER</text>
-  <text x="44" y="522" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">STATUS       :  ✦  CERTIFIED · ACTIVE 2025</text>
-
-  <!-- Bottom strip -->
+  <text x="210" y="403" text-anchor="middle" font-family="Arial Black,Impact,sans-serif" font-size="21" font-weight="900" fill="#111" letter-spacing="1">Ananya Singh</text>
+  <text x="44" y="432" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">LICENSE NO.  :  HA-2025-AIML-0815</text>
+  <text x="44" y="450" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">NEN TYPE     :  Enhancement - Conjuration</text>
+  <text x="44" y="468" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">SPECIALITY   :  AI / ML - Computer Vision</text>
+  <text x="44" y="486" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">INSTITUTION  :  UPES - B.Tech CSE (AIML)</text>
+  <text x="44" y="504" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">RANK         :  ** DOUBLE-STAR HUNTER</text>
+  <text x="44" y="522" font-family="Courier New,monospace" font-size="10.5" font-weight="bold" fill="#111">STATUS       :  CERTIFIED - ACTIVE 2025</text>
   <rect x="12" y="526" width="408" height="34" rx="18" fill="#111"/>
-  <text x="216" y="547" text-anchor="middle" font-family="Courier New" font-size="6.5" fill="#444" letter-spacing="3">ISSUED BY HUNTER ASSOCIATION · NOT TRANSFERABLE · HA-2025</text>
+  <text x="216" y="547" text-anchor="middle" font-family="Courier New" font-size="6.5" fill="#444" letter-spacing="3">ISSUED BY HUNTER ASSOCIATION - NOT TRANSFERABLE - HA-2025</text>
 
-  <!-- ═══ CARD BACK ═══ -->
-  <rect x="500" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.5" filter="url(#cardshadow)"/>
-  <rect x="496" y="12" width="408" height="548" rx="18" fill="url(#skyBlue)"/>
+  <!-- BACK CARD -->
+  <rect x="500" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.4" filter="url(#cs)"/>
+  <rect x="496" y="12" width="408" height="548" rx="18" fill="url(#sb)"/>
   <rect x="496" y="12" width="408" height="548" rx="18" fill="none" stroke="#777" stroke-width="4"/>
   <rect x="506" y="22" width="388" height="528" rx="12" fill="none" stroke="#fff" stroke-width="2"/>
 
-  <!-- Black magnetic strip right -->
-  <rect x="770" y="12" width="134" height="548" rx="0" fill="#111"/>
-  <rect x="770" y="12" width="134" height="28" rx="0" fill="#111"/>
-  <rect x="770" y="532" width="134" height="28" rx="0" fill="#111"/>
+  <!-- Magnetic strip -->
   <rect x="770" y="12" width="134" height="548" rx="18" fill="#1a1a1a"/>
-  <!-- strip sheen -->
   <rect x="773" y="12" width="10" height="548" fill="#fff" opacity="0.03"/>
+  <rect x="891" y="12" width="8" height="548" fill="#000" opacity="0.2"/>
 
-  <!-- Skills label -->
-  <text x="634" y="55" text-anchor="middle" font-family="Courier New" font-size="8.5" fill="#555" letter-spacing="3" font-weight="bold">CERTIFIED ABILITIES</text>
-
-  <!-- Skill rows with checkboxes -->
-  <g font-family="Arial Black, sans-serif" font-size="11" font-weight="900" fill="#111">
-    <rect x="512" y="64" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="77">PYTHON</text>
-
-    <rect x="512" y="94" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="107">DEEP LEARNING</text>
-
-    <rect x="512" y="124" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="137">COMPUTER VISION</text>
-
-    <rect x="512" y="154" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="167">GENERATIVE AI</text>
-
-    <rect x="512" y="184" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="197">NLP</text>
-
-    <rect x="512" y="214" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="227">TENSORFLOW · PYTORCH</text>
-
-    <rect x="512" y="244" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="257">GAN / LSTM / CNN</text>
-
-    <rect x="512" y="274" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="287">YOLOv5 · OPENCV</text>
-
-    <rect x="512" y="304" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="317">MLOps · AWS · LLM</text>
-
-    <rect x="512" y="334" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="347">PYSPARK · SQL</text>
-
-    <rect x="512" y="364" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="377">DATA SCIENCE</text>
-
-    <rect x="512" y="394" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-    <text x="536" y="407">STABLE DIFFUSION</text>
+  <!-- Skills -->
+  <text x="634" y="52" text-anchor="middle" font-family="Courier New" font-size="8.5" fill="#555" letter-spacing="3" font-weight="bold">CERTIFIED ABILITIES</text>
+  <g font-family="Arial Black,sans-serif" font-size="11" font-weight="900" fill="#111">
+    <rect x="512" y="62" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="75">PYTHON</text>
+    <rect x="512" y="90" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="103">DEEP LEARNING</text>
+    <rect x="512" y="118" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="131">COMPUTER VISION</text>
+    <rect x="512" y="146" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="159">GENERATIVE AI</text>
+    <rect x="512" y="174" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="187">NLP</text>
+    <rect x="512" y="202" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="215">TENSORFLOW - PYTORCH</text>
+    <rect x="512" y="230" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="243">GAN / LSTM / CNN</text>
+    <rect x="512" y="258" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="271">YOLOv5 - OPENCV</text>
+    <rect x="512" y="286" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="299">MLOps - AWS - LLM</text>
+    <rect x="512" y="314" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="327">PYSPARK - SQL</text>
+    <rect x="512" y="342" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="355">DATA SCIENCE</text>
+    <rect x="512" y="370" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="383">STABLE DIFFUSION</text>
   </g>
-
-  <!-- Back bottom info -->
-  <text x="634" y="460" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">HUNTER ASSOCIATION</text>
-  <text x="634" y="475" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">NOT TRANSFERABLE · HA-2025</text>
-  <text x="634" y="490" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">ananya1508g@gmail.com</text>
+  <text x="634" y="450" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">HUNTER ASSOCIATION</text>
+  <text x="634" y="466" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">NOT TRANSFERABLE - HA-2025</text>
+  <text x="634" y="482" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">ananya1508g@gmail.com</text>
 </svg>

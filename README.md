@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:222222&height=200&section=header&text=ANANYA%20SINGH&fontSize=62&fontColor=cccccc&fontAlignY=38&desc=◈%20Hunter%20of%20Knowledge%20◈%20AI%2FML%20Engineer%20◈&descColor=888888&descAlignY=60&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:222222&height=200&section=header&text=ANANYA%20SINGH&fontSize=62&fontColor=cccccc&fontAlignY=38&desc=Hunter%20of%20Knowledge%20%7C%20AI%2FML%20Engineer&descColor=888888&descAlignY=60&animation=fadeIn" />
 
 </div>
 
@@ -15,7 +15,7 @@
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=700&size=22&duration=3200&pause=900&color=888888&center=true&vCenter=true&width=920&lines=◈+I+will+be+the+world's+greatest+AI%2FML+Hunter;◈+Nen+Type%3A+Enhancement+—+I+make+every+model+stronger;◈+Generative+AI+·+Computer+Vision+·+Deep+Learning;◈+Gon+would+train+harder.+I+build+smarter." />
+<img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=700&size=22&duration=3200&pause=900&color=888888&center=true&vCenter=true&width=920&lines=I%20will%20be%20the%20world%20greatest%20AI/ML%20Hunter&lines=Nen%20Type%3A%20Enhancement%20-%20I%20make%20every%20model%20stronger&lines=Generative%20AI%20%7C%20Computer%20Vision%20%7C%20Deep%20Learning&lines=Gon%20would%20train%20harder.%20I%20build%20smarter." alt="Typing SVG" />
 
 <br/>
 
@@ -44,11 +44,11 @@
   <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/hunter_license.svg" width="860" alt="Hunter License — Ananya Singh" />
 </p>
 
-<p align="center"><i>Front: Identity & Info &nbsp;·&nbsp; Back: Certified Skill Set</i></p>
+> **Note on photo:** GitHub's security policy blocks external images inside SVG files. To add your photo to the license card, convert your photo to base64 and embed it directly — or use the HTML version below.
 
 ---
 
-## 🗺️ Experience Arc — Quest History
+## 🗺️ Experience Arc
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -58,7 +58,7 @@
 ║  🔥 [ACTIVE]   Delhivery — DevOps Intern              Jun 2025 – Dec 2025   ║
 ║                AWS · Google Chats · AI Agents · LLM · Gurugram              ║
 ║                ► Built AI-driven incident analytics (logs+metrics+traces)    ║
-║                ► Automated monitoring pipelines: Coralogix & CubeAPM        ║
+║                ► Automated monitoring pipelines: Coralogix and CubeAPM      ║
 ║                ► Developed intelligent RCA workflows for root cause analysis ║
 ║                                                                              ║
 ║  ✅ [CLEARED]  HERE Technologies — Project Intern      Jun 2024 – Jul 2024   ║
@@ -68,11 +68,11 @@
 ║                                                                              ║
 ║  ✅ [CLEARED]  PwC Analytics Insight Launchpad         May 2024 – Jun 2024   ║
 ║                Associate · Remote                                            ║
-║                ► Certified in digital analytics & data-driven insights       ║
+║                ► Certified in digital analytics and data-driven insights     ║
 ║                                                                              ║
 ║  ✅ [CLEARED]  Social Empowerment Society — Intern      Jun 2022 – Jul 2022  ║
-║                SDG 3: Good Health & Well-being · Remote                      ║
-║                ► Designed health surveys + community-specific health plans   ║
+║                SDG 3: Good Health and Well-being · Remote                    ║
+║                ► Designed health surveys and community-specific health plans ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -85,20 +85,20 @@
 <tr>
 <td width="50%">
 
-### 🗡️ [Crowd Monitoring — Mahakumbh](https://github.com/ananya15082002)
-`Jan 2025 – Jun 2025` &nbsp; 🥇 **S-Rank**
+### [Crowd Monitoring — Mahakumbh](https://github.com/ananya15082002)
+`Jan 2025 – Jun 2025` — **S-Rank**
 
-> Real-time crowd analytics & alerting system. Estimates density, detects overcrowding, fires automated alerts during large-scale events.
+> Real-time crowd analytics and alerting system to estimate density and detect overcrowding during large-scale events.
 
 **Stack:** `Python` `YOLOv5` `CNN` `Image Processing`
 
 </td>
 <td width="50%">
 
-### 🗡️ [Avataar: AI Object Placement](https://github.com/ananya15082002)
-`Mar 2025 – Jun 2025` &nbsp; 🥇 **S-Rank**
+### [Avataar: Object Placement in Scene](https://github.com/ananya15082002)
+`Mar 2025 – Jun 2025` — **S-Rank**
 
-> Places product images into AI-generated realistic scenes via text prompts. BG removal → scene gen → intelligent composition.
+> Places product images into AI-generated scenes via text prompts. Background removal, scene gen, intelligent composition.
 
 **Stack:** `Stable Diffusion` `ViT` `YOLOv5` `Rembg` `OpenCV`
 
@@ -107,8 +107,8 @@
 <tr>
 <td width="50%">
 
-### 🗡️ [MedGen — Text to Image GenAI](https://github.com/ananya15082002)
-`Aug 2024 – Dec 2024` &nbsp; 🥈 **A-Rank**
+### [MedGen — Generative AI Text to Image](https://github.com/ananya15082002)
+`Aug 2024 – Dec 2024` — **A-Rank**
 
 > Converts medical text descriptions into realistic diagnostic images using RNN, CNN, and GAN.
 
@@ -117,10 +117,10 @@
 </td>
 <td width="50%">
 
-### 🗡️ [DeepFake Face Detection](https://github.com/ananya15082002)
-`Jan 2024 – Jul 2024` &nbsp; 🥈 **A-Rank**
+### [Deep Fake Face Detection](https://github.com/ananya15082002)
+`Jan 2024 – Jul 2024` — **A-Rank**
 
-> Hybrid CNN+LSTM trained on 140,000 images. **87.8% accuracy** distinguishing deepfakes from authentic faces.
+> Hybrid CNN+LSTM trained on 140,000 images achieving **87.8% accuracy** detecting deepfakes.
 
 **Stack:** `CNN` `LSTM` `Image Processing` `Python`
 
@@ -137,7 +137,7 @@
 ║                       ⚔️  BATTLE RECORD  ⚔️                                ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║  🥇 WINNER   Solve for India — GfG × Google Cloud, 2023                     ║
+║  🥇 WINNER   Solve for India — GfG x Google Cloud, 2023                     ║
 ║              Saarthi: Virtual Health Assistant (AI medical guidance)         ║
 ║                                                                              ║
 ║  🥇 1ST      TechFuse 1.0 AIML Bootcamp, UPES 2023                          ║
@@ -145,12 +145,12 @@
 ║  🏅 TOP 10   UHackathon 4.0 META, 2023                                       ║
 ║              Traffic Signal Optimization — YOLO + CNN                        ║
 ║                                                                              ║
-║  👑 DIRECTOR OF OPERATIONS — Microsoft Tech Community UPES, 2024–25          ║
+║  👑 DIRECTOR OF OPERATIONS — Microsoft Tech Community UPES, 2024-25          ║
 ║                                                                              ║
-║  🎓 MENTOR   ML & DL Bootcamp (Cognition 2.0), May–Jul 2024                 ║
-║              Trained 100+ students via hands-on sessions & projects          ║
+║  🎓 MENTOR   ML and DL Bootcamp (Cognition 2.0), May-Jul 2024               ║
+║              Trained 100+ students via hands-on sessions and projects        ║
 ║                                                                              ║
-║  🎖️  DESIGN HEAD     — Microsoft Tech Community UPES, 2022–23               ║
+║  🎖️  DESIGN HEAD     — Microsoft Tech Community UPES, 2022-23               ║
 ║  🎖️  CAMPUS AMBASSADOR — HackerEarth, 2023                                  ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
@@ -165,7 +165,7 @@
 ## 📊 GitHub Power Level
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ananya15082002&show_icons=true&theme=dark&hide_border=true&bg_color=111111&title_color=aaaaaa&icon_color=888888&text_color=cccccc&ring_color=888888" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ananya15082002&show_icons=true&theme=dark&hide_border=true&bg_color=111111&title_color=aaaaaa&icon_color=888888&text_color=cccccc" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananya15082002&layout=compact&theme=dark&hide_border=true&bg_color=111111&title_color=aaaaaa&text_color=cccccc" width="48%" />
 </p>
 
@@ -213,15 +213,15 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ananya-singh-15r25-8r1/">
-    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=888888&labelColor=111111" />
+    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=aaaaaa&labelColor=111111" />
   </a>
   &nbsp;
   <a href="https://github.com/ananya15082002">
-    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=888888&labelColor=111111" />
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=aaaaaa&labelColor=111111" />
   </a>
   &nbsp;
   <a href="mailto:ananya1508g@gmail.com">
-    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=888888&labelColor=111111" />
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=aaaaaa&labelColor=111111" />
   </a>
 </p>
 
@@ -233,7 +233,7 @@
   "You should enjoy the little detours to the fullest.
    Because that's where you'll find the things more
    important than what you want."
-                        ― Ging Freecss, HxH
+                        -- Ging Freecss, HxH
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:222222,50:111111,100:000000&height=120&section=footer&animation=fadeIn" />
