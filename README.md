@@ -58,13 +58,13 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         ★  QUEST HISTORY  ★                                ║
+║                         ★  QUEST HISTORY  ★                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║  🔥 [ACTIVE]   Delhivery — DevOps Intern              Jun 2025 – Dec 2025   ║
-║                AWS · Google Chats · AI Agents · LLM · Gurugram              ║
+║  ✅ [CLEARED]   Delhivery — DevOps Intern             Jun 2025 – Dec 2025    ║
+║                AWS · Google Chats · AI Agents · LLM · Gurugram               ║
 ║                ► Built AI-driven incident analytics (logs+metrics+traces)    ║
-║                ► Automated monitoring pipelines: Coralogix and CubeAPM      ║
+║                ► Automated monitoring pipelines: Coralogix and CubeAPM       ║
 ║                ► Developed intelligent RCA workflows for root cause analysis ║
 ║                                                                              ║
 ║  ✅ [CLEARED]  HERE Technologies — Project Intern      Jun 2024 – Jul 2024   ║
@@ -76,7 +76,7 @@
 ║                Associate · Remote                                            ║
 ║                ► Certified in digital analytics and data-driven insights     ║
 ║                                                                              ║
-║  ✅ [CLEARED]  Social Empowerment Society — Intern      Jun 2022 – Jul 2022  ║
+║  ✅ [CLEARED]  Social Empowerment Society — Intern      Jun 2022 – Jul 2022 ║
 ║                SDG 3: Good Health and Well-being · Remote                    ║
 ║                ► Designed health surveys and community-specific health plans ║
 ║                                                                              ║
