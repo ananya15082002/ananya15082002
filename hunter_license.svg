@@ -1,183 +1,192 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 580" width="920" height="580">
   <defs>
     <linearGradient id="cardGray" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#d8d8d8"/>
-      <stop offset="100%" style="stop-color:#c0c0c0"/>
+      <stop offset="0%" style="stop-color:#d4d4d4"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
     </linearGradient>
     <linearGradient id="skyBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#b8d4e8"/>
-      <stop offset="100%" style="stop-color:#a0c4de"/>
+      <stop offset="100%" style="stop-color:#9ec4de"/>
     </linearGradient>
     <filter id="cardshadow">
-      <feDropShadow dx="6" dy="8" stdDeviation="8" flood-opacity="0.5"/>
+      <feDropShadow dx="5" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.7"/>
     </filter>
-    <pattern id="hatch" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="rotate(0)">
-      <line x1="0" y1="0" x2="0" y2="4" stroke="#888" stroke-width="1"/>
-    </pattern>
+    <clipPath id="photoClip">
+      <rect x="0" y="0" width="90" height="82" rx="2"/>
+    </clipPath>
   </defs>
 
-  <!-- ═══════════════════════════════════════ -->
-  <!--            CARD FRONT (LEFT)           -->
-  <!-- ═══════════════════════════════════════ -->
+  <!-- ═══ CARD FRONT ═══ -->
+  <rect x="16" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.5" filter="url(#cardshadow)"/>
+  <rect x="12" y="12" width="408" height="548" rx="18" fill="url(#cardGray)"/>
+  <rect x="12" y="12" width="408" height="548" rx="18" fill="none" stroke="#111" stroke-width="10"/>
+  <rect x="22" y="22" width="388" height="528" rx="12" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <rect x="26" y="26" width="380" height="520" rx="10" fill="none" stroke="#222" stroke-width="1.5"/>
 
-  <!-- Card shadow -->
-  <rect x="18" y="18" width="400" height="540" rx="18" ry="18" fill="#000" opacity="0.4" filter="url(#cardshadow)"/>
-  <!-- Card body -->
-  <rect x="14" y="14" width="400" height="540" rx="18" ry="18" fill="url(#cardGray)"/>
-  <!-- Outer black border -->
-  <rect x="14" y="14" width="400" height="540" rx="18" ry="18" fill="none" stroke="#111" stroke-width="10"/>
-  <!-- Inner white border -->
-  <rect x="24" y="24" width="380" height="520" rx="12" ry="12" fill="none" stroke="#fff" stroke-width="3"/>
-  <!-- Inner black border line -->
-  <rect x="28" y="28" width="372" height="512" rx="10" ry="10" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Top black header -->
+  <rect x="12" y="12" width="408" height="48" rx="18" fill="#111"/>
+  <rect x="12" y="40" width="408" height="20" fill="#111"/>
 
-  <!-- ── TOP: White logo box ── -->
-  <rect x="36" y="36" width="356" height="220" rx="6" fill="#efefef" stroke="#111" stroke-width="3"/>
+  <!-- HxH logos in header -->
+  <!-- Left logo -->
+  <g transform="translate(22,14)">
+    <line x1="0" y1="2" x2="24" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
+    <line x1="24" y1="2" x2="0" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
+    <polygon points="12,7 19,17 12,27 5,17" fill="#AA1111"/>
+    <polygon points="12,11 17,17 12,23 7,17" fill="#DD2222"/>
+  </g>
+  <!-- Header text -->
+  <text x="216" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff" letter-spacing="3">HUNTER ASSOCIATION</text>
+  <text x="216" y="42" text-anchor="middle" font-family="Courier New, monospace" font-size="7.5" fill="#888" letter-spacing="2">OFFICIAL MEMBERSHIP CARD</text>
+  <!-- Right logo -->
+  <g transform="translate(374,14)">
+    <line x1="0" y1="2" x2="24" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
+    <line x1="24" y1="2" x2="0" y2="32" stroke="white" stroke-width="5" stroke-linecap="square"/>
+    <polygon points="12,7 19,17 12,27 5,17" fill="#AA1111"/>
+    <polygon points="12,11 17,17 12,23 7,17" fill="#DD2222"/>
+  </g>
 
-  <!-- HxH XX Logo - big bold centered -->
-  <!-- Left X -->
-  <line x1="90" y1="55" x2="195" y2="235" stroke="#111" stroke-width="28" stroke-linecap="square"/>
-  <line x1="195" y1="55" x2="90" y2="235" stroke="#111" stroke-width="28" stroke-linecap="square"/>
-  <!-- Right X -->
-  <line x1="217" y1="55" x2="322" y2="235" stroke="#111" stroke-width="28" stroke-linecap="square"/>
-  <line x1="322" y1="55" x2="217" y2="235" stroke="#111" stroke-width="28" stroke-linecap="square"/>
-  <!-- Red diamond center-left X -->
-  <polygon points="142,90 175,145 142,200 109,145" fill="#AA1111"/>
-  <polygon points="142,105 165,145 142,185 119,145" fill="#CC2222"/>
-  <!-- Red diamond center-right X -->
-  <polygon points="270,90 303,145 270,200 237,145" fill="#AA1111"/>
-  <polygon points="270,105 293,145 270,185 247,145" fill="#CC2222"/>
+  <!-- Big XX logo box -->
+  <rect x="30" y="60" width="360" height="200" rx="6" fill="#eeeeee" stroke="#111" stroke-width="3"/>
+  <!-- Left big X -->
+  <line x1="60" y1="78" x2="175" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
+  <line x1="175" y1="78" x2="60" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
+  <polygon points="117,102 147,160 117,218 87,160" fill="#AA1111"/>
+  <polygon points="117,120 137,160 117,200 97,160" fill="#CC2222"/>
+  <!-- Right big X -->
+  <line x1="245" y1="78" x2="360" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
+  <line x1="360" y1="78" x2="245" y2="242" stroke="#111" stroke-width="26" stroke-linecap="square"/>
+  <polygon points="302,102 332,160 302,218 272,160" fill="#AA1111"/>
+  <polygon points="302,120 322,160 302,200 282,160" fill="#CC2222"/>
 
-  <!-- ── MIDDLE: Black strip with photo area ── -->
-  <rect x="36" y="260" width="356" height="100" rx="4" fill="#111"/>
-  <!-- Photo placeholder white box -->
-  <rect x="46" y="268" width="95" height="84" rx="2" fill="#fff"/>
-  <!-- Photo inner subtle detail -->
-  <rect x="50" y="272" width="87" height="76" rx="1" fill="#e0e0e0"/>
-  <text x="93" y="316" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#999">PHOTO</text>
-  <!-- Barcode lines right side -->
-  <rect x="155" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="162" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="167" y="273" width="5" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="175" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="181" y="273" width="6" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="190" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="195" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="202" y="273" width="7" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="212" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="217" y="273" width="5" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="225" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="231" y="273" width="6" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="240" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="245" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="252" y="273" width="5" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="260" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="266" y="273" width="7" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="276" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="281" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="288" y="273" width="6" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="297" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="303" y="273" width="5" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="311" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="316" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="323" y="273" width="6" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="332" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="337" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="343" y="273" width="5" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="351" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="356" y="273" width="4" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="363" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="368" y="273" width="6" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="377" y="273" width="3" height="76" fill="#fff" opacity="0.9"/>
-  <rect x="383" y="273" width="2" height="76" fill="#fff" opacity="0.9"/>
+  <!-- Black barcode strip with PHOTO -->
+  <rect x="30" y="265" width="360" height="96" rx="4" fill="#111"/>
 
-  <!-- ── BOTTOM: Sky blue info section ── -->
-  <rect x="36" y="364" width="356" height="160" rx="0" fill="#b8d8f0" stroke="#111" stroke-width="2"/>
+  <!-- Photo - using raw GitHub image -->
+  <image href="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/Ananayaphoto-new.png"
+    x="38" y="272" width="90" height="82" preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#photoClip)"/>
+  <rect x="38" y="272" width="90" height="82" rx="2" fill="none" stroke="#555" stroke-width="1.5"/>
 
-  <!-- Name box - bold white outlined -->
-  <rect x="46" y="372" width="336" height="44" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
-  <text x="214" y="401" text-anchor="middle" font-family="'Arial Black', 'Impact', sans-serif" font-size="22" font-weight="900" fill="#111" letter-spacing="2">Ananya Singh</text>
+  <!-- Barcode lines -->
+  <rect x="140" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="146" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="150" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="157" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="162" y="275" width="5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="170" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="174" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="180" y="275" width="6" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="189" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="194" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="201" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="207" y="275" width="5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="215" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="220" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="227" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="231" y="275" width="6" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="240" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="246" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="251" y="275" width="5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="259" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="263" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="270" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="275" y="275" width="6" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="284" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="290" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="294" y="275" width="5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="302" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="307" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="314" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="318" y="275" width="6" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="327" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="333" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="338" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="345" y="275" width="1.5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="349" y="275" width="5" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="357" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="362" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="368" y="275" width="4" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="375" y="275" width="2" height="76" fill="#fff" opacity="0.85"/>
+  <rect x="380" y="275" width="3" height="76" fill="#fff" opacity="0.85"/>
 
-  <!-- Info lines -->
-  <text x="50" y="430" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">LICENSE NO.  :  HA-2025-AIML-0815</text>
-  <text x="50" y="447" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">NEN TYPE     :  Enhancement · Conjuration</text>
-  <text x="50" y="464" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">SPECIALITY   :  AI / ML · Computer Vision</text>
-  <text x="50" y="481" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">ISSUED BY    :  Hunter Association  2025</text>
-  <text x="50" y="498" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">RANK         :  ★★  DOUBLE-STAR HUNTER</text>
-  <text x="50" y="515" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#111">STATUS       :  ✦  CERTIFIED · ACTIVE</text>
+  <!-- Blue info section -->
+  <rect x="30" y="365" width="360" height="185" rx="0" fill="url(#skyBlue)" stroke="#111" stroke-width="2"/>
 
-  <!-- Card edge bottom rounded finish -->
-  <rect x="14" y="520" width="400" height="34" rx="0" fill="none"/>
-  <rect x="14" y="520" width="400" height="34" rx="18" ry="18" fill="none" stroke="#111" stroke-width="10"/>
+  <!-- Name box -->
+  <rect x="40" y="374" width="340" height="44" rx="3" fill="#fff" stroke="#111" stroke-width="2.5"/>
+  <text x="210" y="403" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="21" font-weight="900" fill="#111" letter-spacing="1">Ananya Singh</text>
 
+  <!-- Info text -->
+  <text x="44" y="432" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">LICENSE NO.  :  HA-2025-AIML-0815</text>
+  <text x="44" y="450" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">NEN TYPE     :  Enhancement · Conjuration</text>
+  <text x="44" y="468" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">SPECIALITY   :  AI / ML · Computer Vision</text>
+  <text x="44" y="486" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">INSTITUTION  :  UPES — B.Tech CSE (AIML)</text>
+  <text x="44" y="504" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">RANK         :  ★★  DOUBLE-STAR HUNTER</text>
+  <text x="44" y="522" font-family="Courier New, monospace" font-size="10.5" font-weight="bold" fill="#111">STATUS       :  ✦  CERTIFIED · ACTIVE 2025</text>
 
-  <!-- ═══════════════════════════════════════ -->
-  <!--           CARD BACK (RIGHT)            -->
-  <!-- ═══════════════════════════════════════ -->
+  <!-- Bottom strip -->
+  <rect x="12" y="526" width="408" height="34" rx="18" fill="#111"/>
+  <text x="216" y="547" text-anchor="middle" font-family="Courier New" font-size="6.5" fill="#444" letter-spacing="3">ISSUED BY HUNTER ASSOCIATION · NOT TRANSFERABLE · HA-2025</text>
 
-  <!-- Card shadow -->
-  <rect x="488" y="18" width="400" height="540" rx="18" ry="18" fill="#000" opacity="0.4" filter="url(#cardshadow)"/>
-  <!-- Card body - sky blue -->
-  <rect x="484" y="14" width="400" height="540" rx="18" ry="18" fill="url(#skyBlue)"/>
-  <!-- Outer border -->
-  <rect x="484" y="14" width="400" height="540" rx="18" ry="18" fill="none" stroke="#111" stroke-width="4"/>
-  <!-- Inner border -->
-  <rect x="494" y="24" width="380" height="520" rx="12" ry="12" fill="none" stroke="#fff" stroke-width="2"/>
+  <!-- ═══ CARD BACK ═══ -->
+  <rect x="500" y="16" width="408" height="548" rx="18" fill="#000" opacity="0.5" filter="url(#cardshadow)"/>
+  <rect x="496" y="12" width="408" height="548" rx="18" fill="url(#skyBlue)"/>
+  <rect x="496" y="12" width="408" height="548" rx="18" fill="none" stroke="#777" stroke-width="4"/>
+  <rect x="506" y="22" width="388" height="528" rx="12" fill="none" stroke="#fff" stroke-width="2"/>
 
-  <!-- Wide black magnetic strip -->
-  <rect x="620" y="14" width="120" height="540" rx="0" fill="#111"/>
-  <rect x="620" y="14" width="120" height="30" rx="0" fill="#111"/>
-  <rect x="620" y="524" width="120" height="30" rx="0" fill="#111"/>
+  <!-- Black magnetic strip right -->
+  <rect x="770" y="12" width="134" height="548" rx="0" fill="#111"/>
+  <rect x="770" y="12" width="134" height="28" rx="0" fill="#111"/>
+  <rect x="770" y="532" width="134" height="28" rx="0" fill="#111"/>
+  <rect x="770" y="12" width="134" height="548" rx="18" fill="#1a1a1a"/>
+  <!-- strip sheen -->
+  <rect x="773" y="12" width="10" height="548" fill="#fff" opacity="0.03"/>
 
-  <!-- Magnetic strip - rounded top/bottom with card -->
-  <rect x="620" y="14" width="120" height="540" rx="0" fill="#1a1a1a"/>
-  <!-- Slight sheen on strip -->
-  <rect x="622" y="14" width="8" height="540" fill="#333" opacity="0.5"/>
-  <rect x="728" y="14" width="8" height="540" fill="#000" opacity="0.3"/>
+  <!-- Skills label -->
+  <text x="634" y="55" text-anchor="middle" font-family="Courier New" font-size="8.5" fill="#555" letter-spacing="3" font-weight="bold">CERTIFIED ABILITIES</text>
 
-  <!-- Checkbox squares column - left side -->
-  <text x="554" y="95" text-anchor="middle" font-family="'Courier New'" font-size="9" fill="#666" font-weight="bold">SKILLS</text>
+  <!-- Skill rows with checkboxes -->
+  <g font-family="Arial Black, sans-serif" font-size="11" font-weight="900" fill="#111">
+    <rect x="512" y="64" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="77">PYTHON</text>
 
-  <!-- Skill checkboxes with labels -->
-  <rect x="510" y="105" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="119" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">PYTHON</text>
+    <rect x="512" y="94" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="107">DEEP LEARNING</text>
 
-  <rect x="510" y="135" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="149" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">DEEP LEARNING</text>
+    <rect x="512" y="124" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="137">COMPUTER VISION</text>
 
-  <rect x="510" y="165" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="179" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">COMPUTER VISION</text>
+    <rect x="512" y="154" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="167">GENERATIVE AI</text>
 
-  <rect x="510" y="195" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="209" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">GEN AI</text>
+    <rect x="512" y="184" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="197">NLP</text>
 
-  <rect x="510" y="225" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="239" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">NLP</text>
+    <rect x="512" y="214" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="227">TENSORFLOW · PYTORCH</text>
 
-  <rect x="510" y="255" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="269" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">MLOps / AWS</text>
+    <rect x="512" y="244" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="257">GAN / LSTM / CNN</text>
 
-  <rect x="510" y="285" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="299" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">DATA SCIENCE</text>
+    <rect x="512" y="274" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="287">YOLOv5 · OPENCV</text>
 
-  <rect x="510" y="315" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="329" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">PYSPARK / SQL</text>
+    <rect x="512" y="304" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="317">MLOps · AWS · LLM</text>
 
-  <rect x="510" y="345" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="359" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">GAN / LSTM / CNN</text>
+    <rect x="512" y="334" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="347">PYSPARK · SQL</text>
 
-  <rect x="510" y="375" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="389" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">TENSORFLOW</text>
+    <rect x="512" y="364" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="377">DATA SCIENCE</text>
 
-  <rect x="510" y="405" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="419" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">PYTORCH</text>
+    <rect x="512" y="394" width="16" height="16" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
+    <text x="536" y="407">STABLE DIFFUSION</text>
+  </g>
 
-  <rect x="510" y="435" width="18" height="18" rx="2" fill="none" stroke="#111" stroke-width="2.5"/>
-  <text x="534" y="449" font-family="'Arial Black', sans-serif" font-size="10" font-weight="900" fill="#111">YOLO · OPENCV</text>
-
-  <!-- Bottom text on back -->
-  <text x="554" y="490" text-anchor="middle" font-family="'Courier New'" font-size="8" fill="#555">HUNTER ASSOCIATION</text>
-  <text x="554" y="503" text-anchor="middle" font-family="'Courier New'" font-size="8" fill="#555">NOT TRANSFERABLE · HA-2025</text>
-  <text x="554" y="516" text-anchor="middle" font-family="'Courier New'" font-size="8" fill="#555">ananya1508g@gmail.com</text>
-
+  <!-- Back bottom info -->
+  <text x="634" y="460" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">HUNTER ASSOCIATION</text>
+  <text x="634" y="475" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">NOT TRANSFERABLE · HA-2025</text>
+  <text x="634" y="490" text-anchor="middle" font-family="Courier New" font-size="8" fill="#555">ananya1508g@gmail.com</text>
 </svg>
