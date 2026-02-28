@@ -1,199 +1,241 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" width="420" height="260" font-family="'Courier New', monospace">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0f0f0;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="skillBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#81C784;stop-opacity:1" />
-    </linearGradient>
-    <filter id="shadow">
-      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-opacity="0.35"/>
-    </filter>
-    <filter id="innerShadow">
-      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.2"/>
-    </filter>
-  </defs>
+<div align="center">
 
-  <!-- Card outer border -->
-  <rect x="4" y="4" width="412" height="252" rx="14" ry="14" fill="#111" filter="url(#shadow)"/>
-  <!-- Card body -->
-  <rect x="4" y="4" width="412" height="252" rx="14" ry="14" fill="url(#cardBg)" stroke="#888" stroke-width="1.5"/>
-  <!-- Inner border -->
-  <rect x="10" y="10" width="400" height="240" rx="10" ry="10" fill="none" stroke="#999" stroke-width="0.8"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,40:0d1a0d,100:1a4a1a&height=220&section=header&text=ANANYA%20SINGH&fontSize=62&fontColor=4CAF50&fontAlignY=38&desc=◈%20Hunter%20of%20Knowledge%20◈%20AI%2FML%20Engineer%20◈&descColor=ffffff&descAlignY=60&animation=fadeIn" />
 
-  <!-- TOP HEADER BAND -->
-  <rect x="4" y="4" width="412" height="44" rx="14" ry="14" fill="url(#headerBg)"/>
-  <rect x="4" y="30" width="412" height="18" fill="url(#headerBg)"/>
+</div>
 
-  <!-- HxH Logo Left (X with diamonds) -->
-  <g transform="translate(18, 8)">
-    <!-- X shape -->
-    <line x1="0" y1="2" x2="26" y2="30" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <line x1="26" y1="2" x2="0" y2="30" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <!-- Red diamond center -->
-    <polygon points="13,6 20,16 13,26 6,16" fill="#CC1111"/>
-    <polygon points="13,10 18,16 13,22 8,16" fill="#FF2222"/>
-  </g>
+<div align="center">
 
-  <!-- HUNTER ASSOCIATION TEXT -->
-  <text x="214" y="22" text-anchor="middle" font-family="'Georgia', serif" font-size="11" font-weight="bold" fill="#ffffff" letter-spacing="3">HUNTER ASSOCIATION</text>
-  <text x="214" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="7.5" fill="#aaaaaa" letter-spacing="2">OFFICIAL MEMBERSHIP CARD</text>
+```
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗    ██╗  ██╗    ██╗  ██╗
+██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗   ╚██╗██╔╝    ╚██╗██╔╝
+███████║██║   ██║██╔██╗ ██║   ██║   █████╗  ██████╔╝    ╚███╔╝      ╚███╔╝ 
+██╔══██║██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗    ██╔██╗      ██╔██╗ 
+██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║   ██╔╝ ██╗    ██╔╝ ██╗
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝  ╚═╝    ╚═╝  ╚═╝
+```
 
-  <!-- HxH Logo Right -->
-  <g transform="translate(376, 8)">
-    <line x1="0" y1="2" x2="26" y2="30" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <line x1="26" y1="2" x2="0" y2="30" stroke="white" stroke-width="5" stroke-linecap="round"/>
-    <polygon points="13,6 20,16 13,26 6,16" fill="#CC1111"/>
-    <polygon points="13,10 18,16 13,22 8,16" fill="#FF2222"/>
-  </g>
+<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=26&duration=3000&pause=900&color=4CAF50&center=true&vCenter=true&width=920&lines=🌿+I+will+be+the+world's+greatest+AI%2FML+Hunter!;⚡+Nen+Type%3A+Enhancement+—+I+make+every+model+STRONGER;🗺️+The+world+of+AI+is+vast...+I+will+explore+ALL+of+it!;🔥+Generative+AI+·+Computer+Vision+·+Deep+Learning;💚+Gon+would+train+harder.+I+build+smarter." />
 
-  <!-- LEFT: Photo placeholder area -->
-  <rect x="16" y="52" width="72" height="88" rx="4" fill="#cccccc" stroke="#999" stroke-width="1"/>
-  <rect x="18" y="54" width="68" height="84" rx="3" fill="#b0c4b1"/>
-  <!-- Silhouette hint -->
-  <circle cx="52" cy="78" r="18" fill="#7a9e7e"/>
-  <ellipse cx="52" cy="108" rx="26" ry="18" fill="#7a9e7e"/>
-  <text x="52" y="148" text-anchor="middle" font-family="'Courier New'" font-size="6" fill="#555">PHOTO</text>
+<br/>
 
-  <!-- RANK BADGE -->
-  <rect x="16" y="146" width="72" height="20" rx="3" fill="#1a1a1a"/>
-  <text x="52" y="160" text-anchor="middle" font-family="'Georgia', serif" font-size="9" font-weight="bold" fill="#FFD700" letter-spacing="1">★ S-RANK ★</text>
+![Profile Views](https://komarev.com/ghpvc/?username=ananya15082002&color=4CAF50&style=for-the-badge&label=🔍+HUNTERS+VISITED)
+&nbsp;&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/ananya15082002?label=🌿+Companions&style=for-the-badge&color=4CAF50&labelColor=0d1117)](https://github.com/ananya15082002)
+&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-4CAF50?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/ananya-singh-15r25-8r1/)
 
-  <!-- MEMBER INFO BLOCK -->
-  <rect x="96" y="52" width="200" height="114" rx="4" fill="rgba(255,255,255,0.6)" stroke="#ccc" stroke-width="0.8"/>
+</div>
 
-  <text x="104" y="67" font-family="'Courier New'" font-size="7" fill="#777" letter-spacing="1">HUNTER NAME</text>
-  <text x="104" y="80" font-family="'Georgia', serif" font-size="13" font-weight="bold" fill="#111">Ananya Singh</text>
+---
 
-  <line x1="104" y1="84" x2="290" y2="84" stroke="#ddd" stroke-width="0.8"/>
+<div align="center">
 
-  <text x="104" y="97" font-family="'Courier New'" font-size="7" fill="#777" letter-spacing="1">SPECIALIZATION</text>
-  <text x="104" y="109" font-family="'Georgia', serif" font-size="9" fill="#1a1a1a">AI / ML · Computer Vision</text>
-  <text x="104" y="120" font-family="'Georgia', serif" font-size="9" fill="#1a1a1a">Generative AI · MLOps</text>
+> ### *"The key is to never stop. Your Nen grows stronger the more you put yourself on the line."*
+> **— Gon Freecss**
 
-  <line x1="104" y1="126" x2="290" y2="126" stroke="#ddd" stroke-width="0.8"/>
+</div>
 
-  <text x="104" y="138" font-family="'Courier New'" font-size="7" fill="#777" letter-spacing="1">NEN TYPE</text>
-  <text x="104" y="150" font-family="'Georgia', serif" font-size="9" fill="#CC1111" font-weight="bold">Enhancement  ●  Conjuration</text>
+---
 
-  <text x="104" y="162" font-family="'Courier New'" font-size="7" fill="#777" letter-spacing="1">LICENSE NO.</text>
-  <text x="176" y="162" font-family="'Courier New'" font-size="7" fill="#111">2025-AIML-0815</text>
+## 🪪 Hunter License Card
 
-  <!-- BARCODE style lines -->
-  <g transform="translate(302, 52)">
-    <rect x="0" y="0" width="102" height="80" rx="3" fill="#f8f8f8" stroke="#ccc" stroke-width="0.8"/>
-    <text x="51" y="12" text-anchor="middle" font-family="'Courier New'" font-size="6" fill="#888">NEN OUTPUT SCAN</text>
-    <!-- Barcode bars -->
-    <rect x="8" y="16" width="3" height="52" fill="#111"/>
-    <rect x="13" y="16" width="1" height="52" fill="#111"/>
-    <rect x="16" y="16" width="4" height="52" fill="#111"/>
-    <rect x="22" y="16" width="2" height="52" fill="#111"/>
-    <rect x="26" y="16" width="5" height="52" fill="#111"/>
-    <rect x="33" y="16" width="1" height="52" fill="#111"/>
-    <rect x="36" y="16" width="3" height="52" fill="#111"/>
-    <rect x="41" y="16" width="2" height="52" fill="#111"/>
-    <rect x="45" y="16" width="4" height="52" fill="#111"/>
-    <rect x="51" y="16" width="1" height="52" fill="#111"/>
-    <rect x="54" y="16" width="3" height="52" fill="#111"/>
-    <rect x="59" y="16" width="5" height="52" fill="#111"/>
-    <rect x="66" y="16" width="2" height="52" fill="#111"/>
-    <rect x="70" y="16" width="4" height="52" fill="#111"/>
-    <rect x="76" y="16" width="1" height="52" fill="#111"/>
-    <rect x="79" y="16" width="3" height="52" fill="#111"/>
-    <rect x="84" y="16" width="2" height="52" fill="#111"/>
-    <rect x="88" y="16" width="5" height="52" fill="#111"/>
-    <rect x="95" y="16" width="1" height="52" fill="#111"/>
-    <text x="51" y="80" text-anchor="middle" font-family="'Courier New'" font-size="5.5" fill="#555">2025-08-15-UPES-AIML</text>
-  </g>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/hunter_license.svg" width="800" alt="Hunter License" />
+</p>
 
-  <!-- NEN LEVEL BADGE area -->
-  <rect x="302" y="138" width="102" height="28" rx="3" fill="#1a1a1a"/>
-  <text x="353" y="150" text-anchor="middle" font-family="'Courier New'" font-size="6.5" fill="#aaa" letter-spacing="1">NEN LEVEL</text>
-  <text x="353" y="162" text-anchor="middle" font-family="'Georgia', serif" font-size="10" font-weight="bold" fill="#4CAF50">9000 / 10000</text>
+<p align="center"><i>⬆️ Front: Identity & Info &nbsp;|&nbsp; Back: Certified Skill Set</i></p>
 
-  <!-- SKILLS SECTION DIVIDER -->
-  <line x1="16" y1="174" x2="404" y2="174" stroke="#bbb" stroke-width="0.8"/>
-  <rect x="140" y="169" width="140" height="12" rx="6" fill="#1a1a1a"/>
-  <text x="210" y="178" text-anchor="middle" font-family="'Courier New'" font-size="7" fill="#fff" letter-spacing="2">⚡ ABILITIES ⚡</text>
+---
 
-  <!-- SKILL BARS -->
-  <!-- Col 1 -->
-  <text x="18" y="193" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Python</text>
-  <rect x="18" y="196" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="18" y="196" width="82" height="5" rx="2.5" fill="url(#skillBar)"/>
+## 🗺️ Experience Arc — Quest History
 
-  <text x="18" y="211" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Deep Learning</text>
-  <rect x="18" y="214" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="18" y="214" width="78" height="5" rx="2.5" fill="url(#skillBar)"/>
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         ★  QUEST HISTORY  ★                                ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  🔥 [ACTIVE]   Delhivery — DevOps Intern              Jun 2025 – Dec 2025   ║
+║                AWS · Google Chats · AI Agents · LLM · Gurugram              ║
+║                ► Built AI-driven incident analytics (logs+metrics+traces)    ║
+║                ► Automated monitoring pipelines via Coralogix & CubeAPM     ║
+║                ► Developed intelligent RCA workflows for root cause analysis ║
+║                                                                              ║
+║  ✅ [CLEARED]  HERE Technologies — Project Intern      Jun 2024 – Jul 2024   ║
+║                Remote                                                        ║
+║                ► Scraped geo data for McDonald's, Samsung, Peter England     ║
+║                ► Delivered in GEOJSON format for geographic analysis         ║
+║                                                                              ║
+║  ✅ [CLEARED]  PwC Analytics Insight Launchpad         May 2024 – Jun 2024   ║
+║                Associate · Remote                                            ║
+║                ► Certified in digital analytics & data-driven insights       ║
+║                                                                              ║
+║  ✅ [CLEARED]  Social Empowerment Society — Intern      Jun 2022 – Jul 2022  ║
+║                SDG 3: Good Health & Well-being · Remote                      ║
+║                ► Health surveys + community-specific health plans            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-  <text x="18" y="229" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Computer Vision</text>
-  <rect x="18" y="232" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="18" y="232" width="80" height="5" rx="2.5" fill="url(#skillBar)"/>
+---
 
-  <text x="18" y="247" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Generative AI</text>
-  <rect x="18" y="250" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="18" y="250" width="74" height="5" rx="2.5" fill="url(#skillBar)"/>
+## 📜 Legendary Quests — Projects
 
-  <!-- Col 2 -->
-  <text x="118" y="193" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">NLP</text>
-  <rect x="118" y="196" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="118" y="196" width="70" height="5" rx="2.5" fill="url(#skillBar)"/>
+<table>
+<tr>
+<td width="50%">
 
-  <text x="118" y="211" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">PySpark / SQL</text>
-  <rect x="118" y="214" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="118" y="214" width="64" height="5" rx="2.5" fill="url(#skillBar)"/>
+### 🌿 [Crowd Monitoring — Mahakumbh](https://github.com/ananya15082002)
+`Jan 2025 – Jun 2025` &nbsp; 🏅 **S-Rank**
 
-  <text x="118" y="229" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">MLOps / AWS</text>
-  <rect x="118" y="232" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="118" y="232" width="68" height="5" rx="2.5" fill="url(#skillBar)"/>
+> Real-time crowd analytics & alerting system for large-scale events. Estimates density, detects overcrowding, fires automated alerts.
 
-  <text x="118" y="247" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Data Analysis</text>
-  <rect x="118" y="250" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="118" y="250" width="76" height="5" rx="2.5" fill="url(#skillBar)"/>
+**Stack:** `Python` `YOLOv5` `CNN` `Image Processing`
 
-  <!-- Col 3 -->
-  <text x="218" y="193" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">TensorFlow</text>
-  <rect x="218" y="196" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="218" y="196" width="75" height="5" rx="2.5" fill="url(#skillBar)"/>
+</td>
+<td width="50%">
 
-  <text x="218" y="211" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">PyTorch</text>
-  <rect x="218" y="214" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="218" y="214" width="72" height="5" rx="2.5" fill="url(#skillBar)"/>
+### 🌿 [Avataar: AI Object Placement](https://github.com/ananya15082002)
+`Mar 2025 – Jun 2025` &nbsp; 🏅 **S-Rank**
 
-  <text x="218" y="229" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Scikit-Learn</text>
-  <rect x="218" y="232" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="218" y="232" width="78" height="5" rx="2.5" fill="url(#skillBar)"/>
+> Places product images into AI-generated realistic scenes via text prompts. BG removal → scene gen → intelligent composition.
 
-  <text x="218" y="247" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">OpenCV</text>
-  <rect x="218" y="250" width="88" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="218" y="250" width="73" height="5" rx="2.5" fill="url(#skillBar)"/>
+**Stack:** `Stable Diffusion` `ViT` `YOLOv5` `Rembg` `OpenCV`
 
-  <!-- Col 4 -->
-  <text x="318" y="193" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">YOLOv5</text>
-  <rect x="318" y="196" width="86" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="318" y="196" width="78" height="5" rx="2.5" fill="url(#skillBar)"/>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-  <text x="318" y="211" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">GAN / LSTM</text>
-  <rect x="318" y="214" width="86" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="318" y="214" width="70" height="5" rx="2.5" fill="url(#skillBar)"/>
+### 🌿 [MedGen — Text to Image GenAI](https://github.com/ananya15082002)
+`Aug 2024 – Dec 2024` &nbsp; 🏅 **A-Rank**
 
-  <text x="318" y="229" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Stable Diff.</text>
-  <rect x="318" y="232" width="86" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="318" y="232" width="66" height="5" rx="2.5" fill="url(#skillBar)"/>
+> Converts medical text descriptions into realistic diagnostic images, enhancing medical education and research.
 
-  <text x="318" y="247" font-family="'Courier New'" font-size="7.5" fill="#333" letter-spacing="0.5">Git / DevOps</text>
-  <rect x="318" y="250" width="86" height="5" rx="2.5" fill="#ddd"/>
-  <rect x="318" y="250" width="71" height="5" rx="2.5" fill="url(#skillBar)"/>
+**Stack:** `RNN` `CNN` `GAN` `NLP` `Tkinter`
 
-  <!-- Bottom strip -->
-  <rect x="4" y="240" width="412" height="16" rx="0" fill="#1a1a1a"/>
-  <rect x="4" y="248" width="412" height="8" rx="0" ry="0" fill="#1a1a1a"/>
-  <rect x="4" y="248" width="412" height="8" rx="14" ry="14" fill="#1a1a1a"/>
-  <text x="214" y="251" text-anchor="middle" font-family="'Courier New'" font-size="6" fill="#555" letter-spacing="3">ISSUED BY HUNTER ASSOCIATION  ·  NOT TRANSFERABLE  ·  HA-2025</text>
-</svg>
+</td>
+<td width="50%">
+
+### 🌿 [DeepFake Face Detection](https://github.com/ananya15082002)
+`Jan 2024 – Jul 2024` &nbsp; 🏅 **A-Rank**
+
+> Hybrid CNN+LSTM model trained on 140,000 images, achieving **87.8% accuracy** distinguishing deepfakes from real faces.
+
+**Stack:** `CNN` `LSTM` `Image Processing` `Python`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏆 Hall of Victories
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                       ⚔️  BATTLE RECORD  ⚔️                                ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  🥇 WINNER   Solve for India — GfG × Google Cloud, 2023                     ║
+║              Saarthi: Virtual Health Assistant (AI medical guidance)         ║
+║                                                                              ║
+║  🥇 1ST      TechFuse 1.0 AIML Bootcamp, UPES 2023                          ║
+║                                                                              ║
+║  🏅 TOP 10   UHackathon 4.0 META, 2023                                       ║
+║              Traffic Signal Optimization — YOLO + CNN                        ║
+║                                                                              ║
+║  👑 DIRECTOR OF OPERATIONS — Microsoft Tech Community UPES, 2024–25          ║
+║                                                                              ║
+║  🎓 MENTOR   ML & DL Bootcamp (Cognition 2.0), May–Jul 2024                 ║
+║              Trained 100+ students through hands-on sessions & projects      ║
+║                                                                              ║
+║  🎖️  DESIGN HEAD     — Microsoft Tech Community UPES, 2022–23               ║
+║  🎖️  CAMPUS AMBASSADOR — HackerEarth, 2023                                  ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ananya15082002&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" />
+</p>
+
+---
+
+## 📊 Nen Power Level — GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ananya15082002&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=4CAF50&icon_color=4CAF50&text_color=c9d1d9&ring_color=4CAF50" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananya15082002&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=4CAF50&text_color=c9d1d9" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananya15082002&theme=chartreuse-dark&hide_border=true&background=0d1117&ring=4CAF50&fire=FFD700&currStreakLabel=4CAF50&sideLabels=4CAF50&dates=888888" width="72%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ananya15082002&theme=react-dark&bg_color=0d1117&color=4CAF50&line=4CAF50&point=FFD700&area=true&hide_border=true" width="95%" />
+</p>
+
+---
+
+## 🎵 Current BGM — Now Playing
+
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=kfga6zvc71w6lm8qytjvpysik&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0d1117&interchange=false&profanity=false&mode=light&bar_color=4CAF50&bar_color_cover=false" />
+  </a>
+</p>
+
+---
+
+## 🐍 Contribution Serpent — Snake of Greed Island
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/snake.svg" alt="Contribution Snake" />
+</p>
+
+---
+
+## 👔 Employer?
+
+<div align="center">
+
+> ⚠️ **Important**
+>
+> 📄 [**Download My Resume**](https://github.com/ananya15082002/ananya15082002/blob/main/AnanyaSingh_resume.pdf)
+
+</div>
+
+---
+
+## 🤝 Find Me In The Hunter World
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ananya-singh-15r25-8r1/">
+    <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=4CAF50&labelColor=0d1117" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/ananya15082002">
+    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=4CAF50&labelColor=0d1117" />
+  </a>
+  &nbsp;
+  <a href="mailto:ananya1508g@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=4CAF50&labelColor=0d1117" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+
+```
+  "You should enjoy the little detours to the fullest.
+   Because that's where you'll find the things more important
+   than what you want."
+                              ― Ging Freecss, HxH
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a4a1a,50:0d1a0d,100:000000&height=130&section=footer&animation=fadeIn" />
+
+</div>
