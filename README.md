@@ -44,7 +44,7 @@
   <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/hunter_license.svg" width="860" alt="Hunter License — Ananya Singh" />
 </p>
 
-> **Note on photo:** GitHub's security policy blocks external images inside SVG files. To add your photo to the license card, convert your photo to base64 and embed it directly — or use the HTML version below.
+
 
 ---
 
