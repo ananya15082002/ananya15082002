@@ -2,13 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:222222&height=200&section=header&text=ANANYA%20SINGH&fontSize=62&fontColor=cccccc&fontAlignY=38&desc=Hunter%20of%20Knowledge%20%7C%20AI%2FML%20Engineer&descColor=888888&descAlignY=60&animation=fadeIn" />
 
-</div>
-
 <div align="center">
 
-<p align="center">
-  
-```text
+<pre>
 
 ██╗  ██╗██╗   ██╗███╗   ██╗████████╗███████╗██████╗    ██╗  ██╗    █████╗ ██╗
 ██║  ██║██║   ██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗   ╚██╗██╔╝   ██╔══██╗██║
@@ -17,8 +13,9 @@
 ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║  ██║   ██╔╝ ██╗   ██║  ██║██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝  ╚═╝   ╚═╝  ╚═╝╚═╝
 
-```
-</p>
+</pre>
+
+</div>
 
 <img src="https://readme-typing-svg.demolab.com?font=Oswald&weight=700&size=22&duration=3200&pause=900&color=888888&center=true&vCenter=true&width=920&lines=I%20will%20be%20the%20world%20greatest%20AI/ML%20Hunter&lines=Nen%20Type%3A%20Enhancement%20-%20I%20make%20every%20model%20stronger&lines=Generative%20AI%20%7C%20Computer%20Vision%20%7C%20Deep%20Learning&lines=Gon%20would%20train%20harder.%20I%20build%20smarter." alt="Typing SVG" />
 
