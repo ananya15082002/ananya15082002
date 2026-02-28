@@ -140,20 +140,20 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                       ⚔️  BATTLE RECORD  ⚔️                                ║
+║                       ⚔️  BATTLE RECORD  ⚔️                                 ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
-║  🥇 WINNER   Solve for India — GfG x Google Cloud, 2023                     ║
+║  🥇 WINNER   Solve for India — GfG x Google Cloud, 2023                      ║
 ║              Saarthi: Virtual Health Assistant (AI medical guidance)         ║
 ║                                                                              ║
-║  🥇 1ST      TechFuse 1.0 AIML Bootcamp, UPES 2023                          ║
+║  🥇 1ST      TechFuse 1.0 AIML Bootcamp, UPES 2023                           ║
 ║                                                                              ║
 ║  🏅 TOP 10   UHackathon 4.0 META, 2023                                       ║
 ║              Traffic Signal Optimization — YOLO + CNN                        ║
 ║                                                                              ║
 ║  👑 DIRECTOR OF OPERATIONS — Microsoft Tech Community UPES, 2024-25          ║
 ║                                                                              ║
-║  🎓 MENTOR   ML and DL Bootcamp (Cognition 2.0), May-Jul 2024               ║
+║  🎓 MENTOR   ML and DL Bootcamp (Cognition 2.0), May-Jul 2024                ║
 ║              Trained 100+ students via hands-on sessions and projects        ║
 ║                                                                              ║
 ║  🎖️  DESIGN HEAD     — Microsoft Tech Community UPES, 2022-23               ║
@@ -166,16 +166,7 @@
 ## 📊 GitHub Power Level
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ananya15082002&show_icons=true&theme=dark&hide_border=true&bg_color=111111&title_color=aaaaaa&icon_color=888888&text_color=cccccc" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananya15082002&layout=compact&theme=dark&hide_border=true&bg_color=111111&title_color=aaaaaa&text_color=cccccc" width="48%" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananya15082002&theme=dark&hide_border=true&background=111111&ring=888888&fire=cccccc&currStreakLabel=aaaaaa&sideLabels=888888&dates=555555" width="72%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ananya15082002&theme=github-compact&bg_color=111111&color=888888&line=666666&point=cccccc&area=true&hide_border=true" width="95%" />
 </p>
 
 ---
