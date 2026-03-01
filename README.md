@@ -46,38 +46,13 @@
   <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/hunter_license.svg" width="860" alt="Hunter License — Ananya Singh" />
 </p>
 
-
-
 ---
 
 ## 🗺️ Experience Arc
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                         ★  QUEST HISTORY  ★                                 ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  ✅ [CLEARED]   Delhivery — DevOps Intern             Jun 2025 – Dec 2025    ║
-║                AWS · Google Chats · AI Agents · LLM · Gurugram               ║
-║                ► Built AI-driven incident analytics (logs+metrics+traces)    ║
-║                ► Automated monitoring pipelines: Coralogix and CubeAPM       ║
-║                ► Developed intelligent RCA workflows for root cause analysis ║
-║                                                                              ║
-║  ✅ [CLEARED]  HERE Technologies — Project Intern      Jun 2024 – Jul 2024   ║
-║                Remote                                                        ║
-║                ► Scraped geo data for McDonald's, Samsung, Peter England     ║
-║                ► Delivered in GEOJSON format for geographic analysis         ║
-║                                                                              ║
-║  ✅ [CLEARED]  PwC Analytics Insight Launchpad         May 2024 – Jun 2024   ║
-║                Associate · Remote                                            ║
-║                ► Certified in digital analytics and data-driven insights     ║
-║                                                                              ║
-║  ✅ [CLEARED]  Social Empowerment Society — Intern      Jun 2022 – Jul 2022 ║
-║                SDG 3: Good Health and Well-being · Remote                    ║
-║                ► Designed health surveys and community-specific health plans ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/experience.svg" width="800" alt="Experience Arc" />
+</p>
 
 ---
 
@@ -134,30 +109,11 @@
 
 ## 🏆 Hall of Victories
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                       ⚔️  BATTLE RECORD  ⚔️                                 ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  🥇 WINNER   Solve for India — GfG x Google Cloud, 2023                      ║
-║              Saarthi: Virtual Health Assistant (AI medical guidance)         ║
-║                                                                              ║
-║  🥇 1ST      TechFuse 1.0 AIML Bootcamp, UPES 2023                           ║
-║                                                                              ║
-║  🏅 TOP 10   UHackathon 4.0 META, 2023                                       ║
-║              Traffic Signal Optimization — YOLO + CNN                        ║
-║                                                                              ║
-║  👑 DIRECTOR OF OPERATIONS — Microsoft Tech Community UPES, 2024-25          ║
-║                                                                              ║
-║  🎓 MENTOR   ML and DL Bootcamp (Cognition 2.0), May-Jul 2024                ║
-║              Trained 100+ students via hands-on sessions and projects        ║
-║                                                                              ║
-║  🎖️  DESIGN HEAD     — Microsoft Tech Community UPES, 2022-23               ║
-║  🎖️  CAMPUS AMBASSADOR — HackerEarth, 2023                                  ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ananya15082002/ananya15082002/main/victories.svg" width="800" alt="Hall of Victories" />
+</p>
 
+---
 
 ## 📊 GitHub Power Level
 
