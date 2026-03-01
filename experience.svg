@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" width="800" height="920">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="activeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#252525"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#141414"/>
+      <stop offset="100%" style="stop-color:#1e1e1e"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#888888"/>
+      <stop offset="100%" style="stop-color:#333333"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="920" fill="url(#bg)" rx="16"/>
+  <rect width="800" height="920" fill="none" stroke="#2a2a2a" stroke-width="1.5" rx="16"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#666" letter-spacing="6" font-weight="bold">EXPERIENCE ARC</text>
+  <line x1="160" y1="52" x2="640" y2="52" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- ══ NEW QUEST NODE (TOP) ══ -->
+  <rect x="60" y="68" width="680" height="110" rx="10" fill="url(#activeGrad)" stroke="#777" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <!-- Pulsing dot -->
+  <circle cx="92" cy="123" r="8" fill="#aaaaaa" opacity="0.9"/>
+  <circle cx="92" cy="123" r="14" fill="none" stroke="#888" stroke-width="1" opacity="0.4"/>
+  <text x="115" y="101" font-family="Georgia, serif" font-size="11" fill="#999" letter-spacing="3">NEW QUEST</text>
+  <text x="115" y="120" font-family="'Courier New', monospace" font-size="18" fill="#ffffff" font-weight="bold" letter-spacing="1">LOADING...</text>
+  <text x="115" y="140" font-family="'Courier New', monospace" font-size="11" fill="#777">Actively hunting Full-Time Roles in AI / ML · MLOps · GenAI · Data Science</text>
+  <text x="115" y="158" font-family="'Courier New', monospace" font-size="11" fill="#666">Open to Remote &amp; On-site · India &amp; Global</text>
+  <!-- dashed border badge -->
+  <rect x="560" y="88" width="160" height="26" rx="13" fill="#222" stroke="#555" stroke-width="1"/>
+  <text x="640" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#888" letter-spacing="2">SEEKING ROLE</text>
+
+  <!-- Connector line 1 -->
+  <line x1="400" y1="178" x2="400" y2="208" stroke="url(#lineGrad)" stroke-width="2"/>
+  <polygon points="394,205 400,218 406,205" fill="#555"/>
+
+  <!-- ══ DELHIVERY ══ -->
+  <rect x="60" y="218" width="680" height="140" rx="10" fill="url(#cardGrad)" stroke="#444" stroke-width="1"/>
+  <rect x="60" y="218" width="5" height="140" rx="3" fill="#888888"/>
+  <!-- Icon circle -->
+  <circle cx="100" cy="265" r="20" fill="#1e1e1e" stroke="#666" stroke-width="1.5"/>
+  <text x="100" y="270" text-anchor="middle" font-family="Georgia" font-size="16" fill="#aaa">✅</text>
+  <!-- Content -->
+  <text x="134" y="244" font-family="Georgia, serif" font-size="17" fill="#eeeeee" font-weight="bold" letter-spacing="1">DELHIVERY</text>
+  <text x="134" y="262" font-family="'Courier New', monospace" font-size="10" fill="#888" letter-spacing="2">DEVOPS INTERN  ·  AWS · AI AGENTS · LLM</text>
+  <rect x="560" y="228" width="165" height="22" rx="11" fill="#1a1a1a" stroke="#555" stroke-width="1"/>
+  <text x="642" y="243" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#777" letter-spacing="1">JUN 2025 → DEC 2025</text>
+  <line x1="134" y1="272" x2="716" y2="272" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="142" y="291" font-family="'Courier New', monospace" font-size="11" fill="#777">▸  Built AI-driven incident analytics via logs, metrics &amp; traces</text>
+  <text x="142" y="310" font-family="'Courier New', monospace" font-size="11" fill="#777">▸  Automated monitoring pipelines — Coralogix &amp; CubeAPM</text>
+  <text x="142" y="329" font-family="'Courier New', monospace" font-size="11" fill="#777">▸  Developed intelligent RCA workflows for root cause analysis</text>
+  <text x="134" y="348" font-family="'Courier New', monospace" font-size="10" fill="#555" font-style="italic">Gurugram, India</text>
+
+  <!-- Connector 2 -->
+  <line x1="400" y1="358" x2="400" y2="388" stroke="url(#lineGrad)" stroke-width="2"/>
+  <polygon points="394,385 400,398 406,385" fill="#444"/>
+
+  <!-- ══ HERE TECHNOLOGIES ══ -->
+  <rect x="60" y="398" width="680" height="118" rx="10" fill="url(#cardGrad)" stroke="#333" stroke-width="1"/>
+  <rect x="60" y="398" width="5" height="118" rx="3" fill="#666666"/>
+  <circle cx="100" cy="438" r="20" fill="#1e1e1e" stroke="#555" stroke-width="1.5"/>
+  <text x="100" y="443" text-anchor="middle" font-family="Georgia" font-size="16" fill="#999">✅</text>
+  <text x="134" y="424" font-family="Georgia, serif" font-size="17" fill="#dddddd" font-weight="bold" letter-spacing="1">HERE TECHNOLOGIES</text>
+  <text x="134" y="441" font-family="'Courier New', monospace" font-size="10" fill="#777" letter-spacing="2">PROJECT INTERN  ·  REMOTE</text>
+  <rect x="576" y="408" width="148" height="22" rx="11" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+  <text x="650" y="423" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#666" letter-spacing="1">JUN 2024 → JUL 2024</text>
+  <line x1="134" y1="451" x2="716" y2="451" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="142" y="470" font-family="'Courier New', monospace" font-size="11" fill="#666">▸  Scraped geo-data for McDonald's, Samsung &amp; Peter England</text>
+  <text x="142" y="489" font-family="'Courier New', monospace" font-size="11" fill="#666">▸  Delivered in GEOJSON format for geographic analysis</text>
+
+  <!-- Connector 3 -->
+  <line x1="400" y1="516" x2="400" y2="546" stroke="url(#lineGrad)" stroke-width="2"/>
+  <polygon points="394,543 400,556 406,543" fill="#333"/>
+
+  <!-- ══ PwC ══ -->
+  <rect x="60" y="556" width="680" height="104" rx="10" fill="url(#cardGrad)" stroke="#2d2d2d" stroke-width="1"/>
+  <rect x="60" y="556" width="5" height="104" rx="3" fill="#555555"/>
+  <circle cx="100" cy="594" r="20" fill="#1e1e1e" stroke="#444" stroke-width="1.5"/>
+  <text x="100" y="599" text-anchor="middle" font-family="Georgia" font-size="16" fill="#888">✅</text>
+  <text x="134" y="580" font-family="Georgia, serif" font-size="17" fill="#cccccc" font-weight="bold" letter-spacing="1">PwC ANALYTICS INSIGHT LAUNCHPAD</text>
+  <text x="134" y="597" font-family="'Courier New', monospace" font-size="10" fill="#666" letter-spacing="2">ASSOCIATE  ·  REMOTE</text>
+  <rect x="568" y="564" width="156" height="22" rx="11" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="646" y="579" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#555" letter-spacing="1">MAY 2024 → JUN 2024</text>
+  <line x1="134" y1="607" x2="716" y2="607" stroke="#222" stroke-width="1"/>
+  <text x="142" y="627" font-family="'Courier New', monospace" font-size="11" fill="#555">▸  Certified in digital analytics &amp; data-driven insights</text>
+  <text x="142" y="646" font-family="'Courier New', monospace" font-size="11" fill="#555">▸  Focus on practical analytics applications</text>
+
+  <!-- Connector 4 -->
+  <line x1="400" y1="660" x2="400" y2="690" stroke="url(#lineGrad)" stroke-width="2"/>
+  <polygon points="394,687 400,700 406,687" fill="#2a2a2a"/>
+
+  <!-- ══ SOCIAL EMPOWERMENT ══ -->
+  <rect x="60" y="700" width="680" height="104" rx="10" fill="url(#cardGrad)" stroke="#222" stroke-width="1"/>
+  <rect x="60" y="700" width="5" height="104" rx="3" fill="#444444"/>
+  <circle cx="100" cy="738" r="20" fill="#1e1e1e" stroke="#333" stroke-width="1.5"/>
+  <text x="100" y="743" text-anchor="middle" font-family="Georgia" font-size="16" fill="#777">✅</text>
+  <text x="134" y="724" font-family="Georgia, serif" font-size="17" fill="#bbbbbb" font-weight="bold" letter-spacing="1">SOCIAL EMPOWERMENT SOCIETY</text>
+  <text x="134" y="741" font-family="'Courier New', monospace" font-size="10" fill="#555" letter-spacing="2">SOCIAL INTERN  ·  REMOTE  ·  SDG 3</text>
+  <rect x="568" y="708" width="156" height="22" rx="11" fill="#1a1a1a" stroke="#282828" stroke-width="1"/>
+  <text x="646" y="723" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#444" letter-spacing="1">JUN 2022 → JUL 2022</text>
+  <line x1="134" y1="751" x2="716" y2="751" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="142" y="771" font-family="'Courier New', monospace" font-size="11" fill="#444">▸  Designed health surveys &amp; community-specific health plans</text>
+  <text x="142" y="790" font-family="'Courier New', monospace" font-size="11" fill="#444">▸  SDG 3: Good Health &amp; Well-being initiative</text>
+
+  <!-- Footer -->
+  <text x="400" y="860" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#333" letter-spacing="4">HUNTER ASSOCIATION · QUEST LOG · HA-2025</text>
+  <line x1="160" y1="870" x2="640" y2="870" stroke="#1e1e1e" stroke-width="1"/>
+</svg>
